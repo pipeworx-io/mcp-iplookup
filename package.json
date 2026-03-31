@@ -1,16 +1,19 @@
 {
   "name": "@pipeworx/mcp-iplookup",
   "version": "0.1.0",
+  "description": "IP Lookup MCP — ip-api.com (free, no auth for basic usage)",
   "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "iplookup"],
   "license": "MIT",
-  "description": "MCP server for IP geolocation — look up location, ISP, and network info for any IP",
-  "keywords": [
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "pipeworx",
-    "iplookup"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-iplookup"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "typescript": "^5.7.0"
   }

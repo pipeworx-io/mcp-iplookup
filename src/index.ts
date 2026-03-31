@@ -1,11 +1,3 @@
-/**
- * IP Lookup MCP — ip-api.com (free, no auth for basic usage)
- *
- * Tools:
- * - geolocate_ip: get geolocation, ISP, and timezone info for a single IP address
- * - batch_geolocate: geolocate up to 100 IP addresses in a single request
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -20,6 +12,15 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * IP Lookup MCP — ip-api.com (free, no auth for basic usage)
+ *
+ * Tools:
+ * - geolocate_ip: get geolocation, ISP, and timezone info for a single IP address
+ * - batch_geolocate: geolocate up to 100 IP addresses in a single request
+ */
+
 
 const BASE_URL = 'http://ip-api.com';
 const FIELDS = 'status,message,country,countryCode,regionName,city,zip,lat,lon,timezone,isp,org,as';
