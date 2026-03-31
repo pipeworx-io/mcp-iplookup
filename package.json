@@ -1,0 +1,17 @@
+{
+  "name": "@pipeworx/mcp-iplookup",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "MCP server for IP geolocation — look up location, ISP, and network info for any IP",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "iplookup"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
