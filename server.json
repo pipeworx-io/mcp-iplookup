@@ -1,21 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/iplookup",
-  "title": "iplookup",
+  "title": "Iplookup",
   "description": "IP Lookup MCP — ip-api.com (free, no auth for basic usage)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/iplookup",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-iplookup",
     "source": "github"
   },
-  "packages": [
-    {
-      "registryType": "npm",
-      "identifier": "@pipeworx/mcp-iplookup",
-      "version": "0.1.0"
-    }
-  ],
   "remotes": [
     {
       "type": "streamable-http",
