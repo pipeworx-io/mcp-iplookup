@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/iplookup",
   "title": "Iplookup",
   "description": "IP Lookup MCP — ip-api.com (free, no auth for basic usage)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/iplookup",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-iplookup",
