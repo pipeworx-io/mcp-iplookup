@@ -1,0 +1,37 @@
+[
+  {
+    "name": "geolocate_ip",
+    "description": "Look up an IP address to find its location and network details. Returns country, region, city, coordinates, timezone, ISP, and AS number. Use when you need to identify where a user or server is located.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "IPv4 or IPv6 address to look up (e.g., \"8.8.8.8\", \"2001:4860:4860::8888\")"
+        }
+      },
+      "required": [
+        "ip"
+      ]
+    }
+  },
+  {
+    "name": "batch_geolocate",
+    "description": "Look up locations for up to 100 IP addresses at once. Returns geolocation and ISP data in the same order as input. Use for analyzing multiple IPs efficiently.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ips": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of IPv4 or IPv6 addresses to look up (maximum 100)"
+        }
+      },
+      "required": [
+        "ips"
+      ]
+    }
+  }
+]
