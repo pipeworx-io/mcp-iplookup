@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-iplookup",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IP Lookup MCP — ip-api.com (free, no auth for basic usage)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "iplookup",
     "gatewaySlug": "iplookup",
-    "sourceHash": "v1-9e4649d66d767657579e35be3f21e45478c3324a285bee665479f769a542e1a4",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-a22c458ef65092af7ec672afb8f8e13fda1ba58b49993b3823b1940867efe669",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
